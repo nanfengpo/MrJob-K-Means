@@ -1,9 +1,10 @@
+#/usr/bin/python
+#coding:utf-8
+#author ypzhenga
 from mrjob.job import MRJob
 import mrjob
 import sys
-# MRJob is a python class which will be overloaded
 from math import sqrt
-
 
 class MRKMeans(MRJob):
     SORT_VALUES = True
